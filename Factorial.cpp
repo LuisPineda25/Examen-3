@@ -1,3 +1,33 @@
+/**
+Archivo: Factorial.cpp
+
+Descripcion:
+Este programa realiza dos funciones, 1:El proceso de factorial con el valor que el usuario ingrese, mediante el metodo de recursividad, 2: Realiza una simulacion de un cajero, para consultar saldo y reirar
+
+Autor: Luis Ubaldo Flores Pineda
+Fecha de creacion: 29/10/2024
+Ultima modificacion: 29/10/2024
+
+Version: 1.0
+
+Uso:
+1. Ejecute el programa
+2. Seleccion de la funcion que desea escojer
+3: Si selecciona la de Factorial
+    3.1. Ingrese hasta que valor desea realizar el factorial
+    3.2. El programa mostrara el falor de factorial hasta donde se indico
+    3.3. Podra seleccionar si desea salir o continuar
+4: Si selecciona el cajero automatico
+    4.1. Podra seleccionar la opcion de ver saldo, consultar saldo y salir del menu
+    4.2. Al seleccionar la opcion de consultar saldo
+        4.2.1. Se motrara el saldo actual del usuario
+    4.3. Al seleccionar la opcion de retirar saldo
+        4.3.1. El usuario ingresara el saldo a retorar
+        4.3.2. Se mostrara cuanto saldo de reitro
+        4.3.3. Se mostrara el saldo actual
+    4.4. Al seleccionar salir, regresara al menu anterior 
+4. Al selccionar salir, concluye el programa*/
+
 /**LIBRERIAS*/
 #include <iostream>  
 using namespace std;
@@ -81,4 +111,7 @@ int main(){
             }while(opcion3 != 3); /**Continúa hasta que el usuario elija salir*/
         }
     }while(opcion != 3); /**Continúa el programa hasta que el usuario elija salir*/    
+
+return 0;
+system("pause");/**Evita que se cierre de inmediato el programa en el .exe */
 }
